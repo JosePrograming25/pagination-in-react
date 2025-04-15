@@ -1,0 +1,43 @@
+.producto {
+    border:solid  2px rgba(255, 255, 255, 0.575) ;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.listProducts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 8px;
+    margin: 30px 0px;
+}
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.numberPage {
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    font-size: 1rem;
+}
+
+.numberPage:focus {
+    box-shadow: none;
+}
+.numberPage.active {
+    background-color: #007bff;
+}
+
+.paginationContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+
+}
